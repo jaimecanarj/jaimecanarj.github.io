@@ -3,7 +3,7 @@ import MobileNavbar from "./MobileNavbar";
 
 const links = [
   { href: "#", label: "Inicio" },
-  { href: "#sobre-mi", label: "Sobre mi" },
+  { href: "#sobre-mi", label: "Sobre mí" },
   { href: "#proyectos", label: "Proyectos" },
   { href: "#contacto", label: "Contacto" },
 ];
