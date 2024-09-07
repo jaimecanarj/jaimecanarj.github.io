@@ -75,3 +75,7 @@
     url(/hero-bg.svg);
   background-position: center;
 }
+
+html {
+  scroll-behavior: smooth;
+}
