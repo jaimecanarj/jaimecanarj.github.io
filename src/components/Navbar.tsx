@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import MobileNavbar from "./MobileNavbar";
+import ThemeToggle from "./ThemeToggle";
 
 const links = [
   { href: "#", label: "Inicio" },
@@ -11,7 +12,7 @@ const links = [
 const Navbar = () => {
   return (
     <header className="w-full border-b">
-      <div className="container flex items-center px-4 mx-auto h-14 ">
+      <div className="container flex items-center justify-between px-4 mx-auto h-14 ">
         {/* Barra principal */}
         <div className="hidden gap-2 mr-4 sm:flex">
           {links.map((item) => (
@@ -22,6 +23,7 @@ const Navbar = () => {
         </div>
         {/* Barra dispositivos móviles */}
         <MobileNavbar links={links} />
+        <ThemeToggle />
       </div>
     </header>
   );
