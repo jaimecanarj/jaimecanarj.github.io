@@ -1,13 +1,7 @@
 import { Button } from "@/components/ui/button";
-import MobileNavbar from "./MobileNavbar";
-import ThemeToggle from "./ThemeToggle";
-
-const links = [
-  { href: "#", label: "Inicio" },
-  { href: "#sobre-mi", label: "Sobre mí" },
-  { href: "#proyectos", label: "Proyectos" },
-  { href: "#contacto", label: "Contacto" },
-];
+import MobileNavbar from "@/components/MobileNavbar";
+import ThemeToggle from "@/components/ThemeToggle";
+import { links } from "@/lib/data";
 
 const Navbar = () => {
   return (
