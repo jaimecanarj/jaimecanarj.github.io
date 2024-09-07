@@ -20,9 +20,8 @@ const MobileNavbar = ({
       <SheetContent side="left">
         <div className="flex flex-col items-start">
           {links.map((item) => (
-            <a href={item.href}>
+            <a href={item.href} key={item.href}>
               <Button
-                key={item.href}
                 variant="link"
                 onClick={() => {
                   setOpen(false);

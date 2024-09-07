@@ -36,7 +36,11 @@ const About = () => {
           <CardHeader className="text-3xl text-center">Habilidades</CardHeader>
           <CardContent>
             {habilidades.map((habilidad) => {
-              return <Badge className="m-2 text-lg">{habilidad}</Badge>;
+              return (
+                <Badge className="m-2 text-lg" key={habilidad}>
+                  {habilidad}
+                </Badge>
+              );
             })}
           </CardContent>
         </Card>

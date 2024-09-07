@@ -13,7 +13,7 @@ const Projects = () => {
       <div className="container grid gap-8 p-8 lg:grid-cols-2">
         {projects.map((project) => {
           return (
-            <a href={project.href} key={project.href}>
+            <a href={project.href} key={project.title}>
               <Card className=" sm:h-60 hover:bg-secondary">
                 <CardHeader className="flex flex-col items-center">
                   <CardTitle className="mb-2">{project.title}</CardTitle>

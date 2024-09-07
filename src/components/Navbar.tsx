@@ -10,10 +10,8 @@ const Navbar = () => {
         {/* Barra principal */}
         <nav className="hidden gap-2 mr-4 sm:flex">
           {links.map((item) => (
-            <a href={item.href}>
-              <Button key={item.href} variant="link">
-                {item.label}
-              </Button>
+            <a href={item.href} key={item.href}>
+              <Button variant="link">{item.label}</Button>
             </a>
           ))}
         </nav>
