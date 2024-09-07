@@ -65,3 +65,13 @@
     @apply bg-background text-foreground;
   }
 }
+
+.hero {
+  background: linear-gradient(
+      to right,
+      rgba(0, 98, 185, 0.8),
+      rgba(0, 98, 185, 0.8)
+    ),
+    url(/hero-bg.svg);
+  background-position: center;
+}

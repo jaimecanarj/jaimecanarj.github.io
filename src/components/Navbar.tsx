@@ -11,16 +11,16 @@ const links = [
 
 const Navbar = () => {
   return (
-    <header className="w-full border-b">
+    <header className="fixed top-0 w-full border-b bg-background">
       <div className="container flex items-center justify-between px-4 mx-auto h-14 ">
         {/* Barra principal */}
-        <div className="hidden gap-2 mr-4 sm:flex">
+        <nav className="hidden gap-2 mr-4 sm:flex">
           {links.map((item) => (
             <Button key={item.href} variant="link">
               <a href={item.href}>{item.label}</a>
             </Button>
           ))}
-        </div>
+        </nav>
         {/* Barra dispositivos móviles */}
         <MobileNavbar links={links} />
         <ThemeToggle />
