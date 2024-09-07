@@ -16,9 +16,11 @@ const Navbar = () => {
         {/* Barra principal */}
         <nav className="hidden gap-2 mr-4 sm:flex">
           {links.map((item) => (
-            <Button key={item.href} variant="link">
-              <a href={item.href}>{item.label}</a>
-            </Button>
+            <a href={item.href}>
+              <Button key={item.href} variant="link">
+                {item.label}
+              </Button>
+            </a>
           ))}
         </nav>
         {/* Barra dispositivos móviles */}
