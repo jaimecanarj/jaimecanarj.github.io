@@ -7,11 +7,11 @@ export const links = [
 
 export const projects = [
   {
-    title: "Título 1",
-    image: "/project.svg",
-    href: "#",
+    title: "Next Store",
+    image: "/next-store.png",
+    href: "https://next-store-tan.vercel.app",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magnam vitae qui animi reiciendis fugit illum libero ab ipsum aspernatur!",
+      "Una tienda online donde puedes comprar productos, guardarlos como favoritos y escribir reseñas.",
   },
   {
     title: "Título 2",

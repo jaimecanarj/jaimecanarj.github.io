@@ -10,11 +10,11 @@ const Projects = () => {
       <h1 className="pb-4 m-16 text-6xl font-semibold border-b-4 border-current">
         Proyectos
       </h1>
-      <div className="container grid gap-8 p-8 lg:grid-cols-2">
+      <div className="container grid gap-8 p-8 xl:grid-cols-2">
         {projects.map((project) => {
           return (
             <a href={project.href} key={project.title}>
-              <Card className=" sm:h-60 hover:bg-secondary">
+              <Card className=" sm:h-72 hover:bg-secondary">
                 <CardHeader className="flex flex-col items-center">
                   <CardTitle className="mb-2">{project.title}</CardTitle>
                 </CardHeader>
@@ -22,8 +22,8 @@ const Projects = () => {
                   <img
                     src={project.image}
                     alt={project.title}
-                    width={160}
-                    className="m6"
+                    width={240}
+                    className="m-6"
                   />
                   <p>{project.description}</p>
                 </CardContent>
