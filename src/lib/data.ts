@@ -14,10 +14,10 @@ export const projects = [
       "Una tienda online donde puedes comprar productos, guardarlos como favoritos y escribir reseñas.",
   },
   {
-    title: "Título 2",
-    image: "/project.svg",
-    href: "#",
+    title: "Jobify",
+    image: "/jobify.png",
+    href: "https://jobify-wine-nine.vercel.app/",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolorem quidem vero voluptatum enim! Corrupti rem similique asperiores incidunt quas?",
+      "Proyecto de una app de seguimiento de ofertas de trabajo con Next.js, clerk, supabase y shadcn",
   },
 ];
